@@ -6,6 +6,7 @@ on:
       - nitya-patch-1
       - fhinkel-patch-1
       - HannahZhuSWE-playwright
+      - main
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
