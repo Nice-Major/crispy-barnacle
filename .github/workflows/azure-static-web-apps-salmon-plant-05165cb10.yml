@@ -3,7 +3,9 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - "**"
+      - nitya-patch-1
+      - fhinkel-patch-1
+      - HannahZhuSWE-playwright
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
